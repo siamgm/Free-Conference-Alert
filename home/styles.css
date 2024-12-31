@@ -1,0 +1,131 @@
+/* .city-box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  .city-title {
+    background-color: #0033a0;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    margin: -20px -20px 20px;
+  }
+  .city-list li {
+    list-style: none;
+    margin: 5px 0;
+  }
+  .city-list li::before {
+    content: "\f3c5"; 
+    margin-right: 10px;
+    color: #0033a0;
+  }
+
+
+*/
+.py-100{
+  padding: 100px 20px;
+}
+.pt-100{
+  padding-top: 100px;
+}
+.lite-bg{
+  background-color: rgb(28, 0, 92);
+  opacity: .5; 
+}
+:root {
+  --color-1: #3b1e54; /* Dark Purple */
+  --color-2: #9b7ebd; /* Light Purple */
+  --color-3: #d4bee4; /* Light Lavender */
+  --color-4: #eeeeee; /* Very Light Gray */
+}
+
+
+/* hero section  */
+h1{
+  font-size: 55px;
+}
+.hero {
+  background-image: url('../assets/hero-bg.jpeg') ;
+  background-size: cover ;
+  background-position: center center;
+  color: white;
+  overflow: hidden;
+}
+.hero::before{
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgb(28, 0, 92);
+  opacity: .8;
+  left: 0;
+  top: 0;
+
+}
+
+
+  /* search bar  */
+
+  .search-bar select{
+    border-color: #8080804d;
+  }
+/* info section  */
+.image-div img{
+  width: 550px;
+    height: 360px;
+  object-fit: cover;
+}
+
+  /* conference city  */
+
+  /* city list  */
+  .city-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+.city-list li {
+    list-style: none;
+    margin: 5px 0;
+    position: relative;
+  }
+
+  .city-list li::before{
+    content: "\f57e"; 
+    margin-right: 10px;
+    color: #0033a0;
+  }
+
+  .list-box{
+    background-color: #ccdcff44;
+  }
+
+  .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #0033a0;
+    color: white;
+}
+
+  /* calendar  */
+
+
+  .calendar-grid{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    font-size: 18px;
+  }
+  .calendar-grid li{
+    background-color: #116a9f;
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+  }
+
+  .calendar-grid li:hover{
+background-color: #0033a0;
+  }
