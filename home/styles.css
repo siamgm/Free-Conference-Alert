@@ -1,30 +1,4 @@
-/* .city-box {
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
-  }
-  .city-title {
-    background-color: #0033a0;
-    color: #ffffff;
-    padding: 10px;
-    border-radius: 8px 8px 0 0;
-    text-align: center;
-    margin: -20px -20px 20px;
-  }
-  .city-list li {
-    list-style: none;
-    margin: 5px 0;
-  }
-  .city-list li::before {
-    content: "\f3c5"; 
-    margin-right: 10px;
-    color: #0033a0;
-  }
 
-
-*/
 .py-100{
   padding: 100px 20px;
 }
@@ -92,12 +66,18 @@ h1{
     margin: 5px 0;
     position: relative;
   }
-
   .city-list li::before{
-    content: "\f57e"; 
+    display: inline-block;
+    content: "";
+    background-image: url('../assets/pin.png');
+    background-size: contain;
+    height: 16px;
+    width: 16px;
     margin-right: 10px;
-    color: #0033a0;
+    transform: translateY(2px);
   }
+
+
 
   .list-box{
     background-color: #ccdcff44;
@@ -108,6 +88,13 @@ h1{
     border-color: #0033a0;
     color: white;
 }
+
+/* conferencs */
+
+.conference-list{
+  background-color: #e5ebf4;
+}
+
 
   /* calendar  */
 
@@ -129,3 +116,48 @@ h1{
   .calendar-grid li:hover{
 background-color: #0033a0;
   }
+
+
+  /* topic */
+  .topics {
+    background-color: #e5ebf4;
+  }
+  .topics .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .topic-div .topic{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    height: 400px;
+    overflow-y: scroll;
+  }
+  .topic-div h2, .short-topic-div h2{
+    font-size: 22px;
+    background-color: #0033a0;
+    color: white;
+    line-height: 2;
+  }
+
+  .short-toipic-div{
+
+  }
+
+  .topic li{
+    list-style-type: circle;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  /* .topic li::before{
+    display: inline-block;
+    content: "";
+    background-image: url('../assets/check-mark.png');
+    background-size: contain;
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+    transform: translateY(2px);
+  } */
