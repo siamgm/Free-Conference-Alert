@@ -130,9 +130,16 @@ background-color: #0033a0;
   .topic-div .topic{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 30px;
+    row-gap: 13px;
+    column-gap: 20px;
     height: 400px;
     overflow-y: scroll;
+  }
+  .topic{
+   display: flex;
+   flex-direction: column;
+   column-gap: 20px;
+    
   }
   .topic-div h2, .short-topic-div h2{
     font-size: 22px;
