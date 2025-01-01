@@ -9,12 +9,6 @@
   background-color: rgb(28, 0, 92);
   opacity: .5; 
 }
-:root {
-  --color-1: #3b1e54; /* Dark Purple */
-  --color-2: #9b7ebd; /* Light Purple */
-  --color-3: #d4bee4; /* Light Lavender */
-  --color-4: #eeeeee; /* Very Light Gray */
-}
 
 
 /* hero section  */
@@ -94,22 +88,15 @@ h1{
 
   /* calendar  */
 
-
-  .calendar-grid{
+  .calendar li{
     list-style: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
-    font-size: 18px;
-  }
-  .calendar-grid li{
     background-color: #116a9f;
     color: white;
     cursor: pointer;
     transition: all .3s ease-in-out;
   }
 
-  .calendar-grid li:hover{
+  .calendar li:hover{
 background-color: #0033a0;
   }
 
@@ -118,34 +105,17 @@ background-color: #0033a0;
   .topics {
     background-color: #e5ebf4;
   }
-  .topics .container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-  .topic-div .topic{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 13px;
-    column-gap: 20px;
-    height: 400px;
-    overflow-y: scroll;
-  }
-  .topic{
-   display: flex;
-   flex-direction: column;
-   column-gap: 20px;
-    
-  }
-  .topic-div h2, .short-topic-div h2{
+
+   .topic-div .topic{
+    max-height: 400px;
+    overflow-y: auto;
+  } 
+
+  .topic-div h2{
     font-size: 22px;
     background-color: #0033a0;
     color: white;
     line-height: 2;
-  }
-
-  .short-toipic-div{
-
   }
 
   .topic li{
@@ -154,16 +124,7 @@ background-color: #0033a0;
     font-weight: 500;
   }
 
-  /* .topic li::before{
-    display: inline-block;
-    content: "";
-    background-image: url('../assets/check-mark.png');
-    background-size: contain;
-    height: 16px;
-    width: 16px;
-    margin-right: 10px;
-    transform: translateY(2px);
-  } */
+
 
   /* info section  */
 .image-div img{
@@ -175,8 +136,15 @@ background-color: #0033a0;
 
 /* mobile css  */
 @media (max-width: 767px){
- 
-
+  .py-100{
+    padding: 30px 10px;
+  }
+  .pt-100{
+    padding-top: 30px;
+  }
+h1{
+  font-size: 35px;
+}
 /* search bar  */
 
 form {
@@ -212,7 +180,10 @@ form div, form select{
 
 /* info  */
 .image-div img {
-  width: 100%;
+  width: 287px;
   height: 100%;
 }
 }
+
+/* ====================== */
+
