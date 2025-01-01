@@ -36,13 +36,6 @@ h1{
 }
 
 
-  /* search bar  */
-
-  .search-bar select{
-    border-color: #8080804d;
-  }
-
-
   /* conference city  */
 
   /* city list  */
@@ -72,7 +65,7 @@ h1{
   .list-box{
     background-color: #ccdcff44;
   }
-
+/* pagination  */
   .page-item.active .page-link {
     background-color: #007bff;
     border-color: #0033a0;
@@ -97,7 +90,7 @@ h1{
   }
 
   .calendar p:hover{
-background-color: #0033a0;
+background-color: #074ce0;
   }
 
   .calendar p::before{
@@ -170,6 +163,7 @@ h1{
 }
 
 /* city list  */
+
 .city-section .flex-row{
   flex-wrap: wrap;
 }
@@ -185,5 +179,4 @@ h1{
 }
 }
 
-/* ====================== */
 
