@@ -100,10 +100,13 @@ h1{
 background-color: #0033a0;
   }
 
-  .calendar li::before{
+  .calendar p::before{
     content: "";
-    height: 16px;
-    width: 16px;
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    margin-right: 10px;
+    transform: translateY(6px);
     background-image: url('../assets/timetable.png');
   }
 
@@ -114,7 +117,7 @@ background-color: #0033a0;
   }
 
    .topic-div .topic{
-    max-height: 400px;
+    max-height: 336px;
     overflow-y: auto;
   } 
 
