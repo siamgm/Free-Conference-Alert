@@ -88,16 +88,23 @@ h1{
 
   /* calendar  */
 
-  .calendar li{
-    list-style: none;
-    background-color: #116a9f;
-    color: white;
+  .calendar p{
+    background-color: #0033a0;
+    font-size: 16px;
+    font-weight: 500;
     cursor: pointer;
     transition: all .3s ease-in-out;
   }
 
-  .calendar li:hover{
+  .calendar p:hover{
 background-color: #0033a0;
+  }
+
+  .calendar li::before{
+    content: "";
+    height: 16px;
+    width: 16px;
+    background-image: url('../assets/timetable.png');
   }
 
 
@@ -163,19 +170,9 @@ form div, form select{
   width: 50%;
 }
 
-.city-list {
-  grid-template-columns: 1fr 1fr;
-}
-
-.calendar-grid {
-  grid-template-columns: 1fr 1fr;
-}
-
 
 /* topic  */
-.topics .container {
-  grid-template-columns: 1fr;
-}
+
 
 
 /* info  */
