@@ -134,6 +134,19 @@ background-color: #0033a0;
     font-weight: 500;
   }
 
+/* flag  */
+.flags img{
+  width: 50%;
+}
+
+.flags .container .row div div{
+  background-color: #e5ebf4;
+}
+
+.flags p{
+  font-size: 20px;
+  font-weight: 500;
+}
 
 
   /* info section  */
@@ -155,15 +168,6 @@ background-color: #0033a0;
 h1{
   font-size: 35px;
 }
-/* search bar  */
-
-form {
-  flex-direction: column;
-}
-
-form div, form select{
-  width: 100%;
-}
 
 /* city list  */
 .city-section .flex-row{
@@ -172,10 +176,6 @@ form div, form select{
 .list-group-item {
   width: 50%;
 }
-
-
-/* topic  */
-
 
 
 /* info  */
