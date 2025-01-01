@@ -47,12 +47,7 @@ h1{
   .search-bar select{
     border-color: #8080804d;
   }
-/* info section  */
-.image-div img{
-  width: 550px;
-    height: 360px;
-  object-fit: cover;
-}
+
 
   /* conference city  */
 
@@ -169,3 +164,55 @@ background-color: #0033a0;
     margin-right: 10px;
     transform: translateY(2px);
   } */
+
+  /* info section  */
+.image-div img{
+  width: 530px;
+    height: 360px;
+  object-fit: cover;
+}
+
+
+/* mobile css  */
+@media (max-width: 767px){
+ 
+
+/* search bar  */
+
+form {
+  flex-direction: column;
+}
+
+form div, form select{
+  width: 100%;
+}
+
+/* city list  */
+.city-section .flex-row{
+  flex-wrap: wrap;
+}
+.list-group-item {
+  width: 50%;
+}
+
+.city-list {
+  grid-template-columns: 1fr 1fr;
+}
+
+.calendar-grid {
+  grid-template-columns: 1fr 1fr;
+}
+
+
+/* topic  */
+.topics .container {
+  grid-template-columns: 1fr;
+}
+
+
+/* info  */
+.image-div img {
+  width: 100%;
+  height: 100%;
+}
+}
