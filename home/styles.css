@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
-h1,h2{
+h1,h2,h3{
   font-family:  "Archivo Black", serif;
+}
+h3{
+  font-size: 20px;
 }
 .py-100{
   padding: 100px 20px;
