@@ -10,6 +10,10 @@
   opacity: .5; 
 }
 
+.gradient-bg, .list-group-item.active{
+  background:  linear-gradient(217deg, #082f85, rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #ab2037, rgb(105 132 171 / 73%) 70.71%), linear-gradient(336deg, #082f85, rgb(0 0 255 / 73%) 70.71%);
+  color: white;
+}
 
 /* hero section  */
 h1{
@@ -67,7 +71,7 @@ h1{
   }
 /* pagination  */
   .page-item.active .page-link {
-    background-color: #007bff;
+    background:  linear-gradient(217deg, #082f85, rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #ab2037, rgb(105 132 171 / 73%) 70.71%), linear-gradient(336deg, #082f85, rgb(0 0 255 / 73%) 70.71%);
     border-color: #0033a0;
     color: white;
 }
@@ -82,7 +86,7 @@ h1{
   /* calendar  */
 
   .calendar p{
-    background-color: #0033a0;
+    background:  #082f85;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
@@ -116,7 +120,6 @@ background-color: #074ce0;
 
   .topic-div h2{
     font-size: 22px;
-    background-color: #0033a0;
     color: white;
     line-height: 2;
   }
@@ -133,7 +136,7 @@ background-color: #074ce0;
 }
 
 .flags .container .row div div{
-  background-color: #ccdcff44;
+      background-color: #ccdcff44;
 }
 
 .flags p{
