@@ -182,22 +182,22 @@ h1{
 }
 }
 
-
+/* scroll bar designs  */
 
 .topic-div .topic::-webkit-scrollbar {
-  width: 10px; /* Adjust the width of the scrollbar */
+  width: 10px;
 }
 
 .topic-div .topic::-webkit-scrollbar-thumb {
-  background: #ab2037c7; /* Change to your desired color */
-  border-radius: 5px; /* Rounded corners for the scrollbar */
+  background: #ab2037c7;
+  border-radius: 5px;
 }
 
 .topic-div .topic::-webkit-scrollbar-thumb:hover {
-  background: #ab2032; /* Darker color when hovered */
+  background: #ab2032;
 }
 
 
 .topic-div .topic::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Light background for the track */
+  background: #f1f1f1;
 }
