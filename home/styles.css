@@ -183,3 +183,21 @@ h1{
 }
 
 
+
+.topic-div .topic::-webkit-scrollbar {
+  width: 10px; /* Adjust the width of the scrollbar */
+}
+
+.topic-div .topic::-webkit-scrollbar-thumb {
+  background: #ab2037c7; /* Change to your desired color */
+  border-radius: 5px; /* Rounded corners for the scrollbar */
+}
+
+.topic-div .topic::-webkit-scrollbar-thumb:hover {
+  background: #ab2032; /* Darker color when hovered */
+}
+
+
+.topic-div .topic::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light background for the track */
+}
