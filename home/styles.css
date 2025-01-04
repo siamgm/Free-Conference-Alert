@@ -29,30 +29,46 @@ h1{
   font-weight: 600;
 }
 .hero {
-  background-image: url('../assets/hero-bg.jpeg') ;
-  background-size: cover ;
-  background-position: center center;
+  background-color: #32196c;
   color: white;
-  overflow: hidden;
 }
-.hero::before{
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 100%;
-  background-color: rgb(28, 0, 92);
-  opacity: .8;
-  left: 0;
-  top: 0;
-
+.hero button{
+  padding: 15px 30px;
 }
 .hero button, .info button{
   background-color: #ab2032;
   border:none;
+  font-size: 18px;
+
+}
+
+/* conferencs */
+
+.conference-list{
+  background-color: #f7f7f7;
+}
+
+
+/* topic buttons  */
+
+.topic-btns-parent li{
+  height: 75px;
+}
+.topic-btns-parent li a{
+  text-decoration: none;
+  color: white;
+  background:  #082f85;
+  transition: all .3s ease-in-out;
+}
+
+.topic-btns-parent li a:hover{
+  background:  #ab2032;
+
 }
 
 
   /* conference country  */
+
   .list-group-item:first-child {
     border-top-left-radius: .25rem;
     border-top-right-radius: 0;
@@ -79,7 +95,7 @@ h1{
   .city-list li::before{
     display: inline-block;
     content: "";
-    background-image: url('../assets/pin.png');
+    /* background-image: url('../assets/pin.png'); */
     background-size: contain;
     height: 16px;
     width: 16px;
@@ -88,9 +104,8 @@ h1{
   }
 
 
-
   .list-box{
-    background-color: #f1f6ff;
+    background-color: #f7f7f7;
   }
 /* pagination  */
   .page-item.active .page-link {
@@ -99,30 +114,13 @@ h1{
     color: white;
 }
 
-/* conferencs */
-
-.conference-list{
-  background-color: #e5ebf4;
-}
 
 
   /* calendar  */
   .calendar{
-    background-image: url("../assets/bg-2.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-color: #32196c;
   }
-  .calendar::before{
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    height: 100%;
-    width: 100%;
-   background-color: #082f85;
-    opacity: .8;
-  }
+
 
   .calendar p{
     background:  white;
@@ -132,7 +130,6 @@ h1{
     cursor: pointer;
     transition: all .3s ease-in-out;
     position: relative;
-    /* padding-left: 50px; */
   }
 
   .calendar p:hover{
@@ -153,17 +150,17 @@ color: white;
     background-color: #ab2032;
     border-radius: 100%;
   }
-  /* .calendar p:hover::before{
-    background-color: #082f85;
-  } */
+
 
 
   /* topic */
+
   .topics {
-    background-color: #e5ebf4;
+    background-color: #f7f7f7;
   }
 
    .topic-div .topic{
+    background-color: white;
     max-height: 312px;
     overflow-y: auto;
   } 
@@ -180,13 +177,16 @@ color: white;
     font-weight: 500;
   }
 
+
+
 /* flag  */
+
 .flags img{
   width: 50%;
 }
 
 .flags .container .row div div{
-      background-color: #ccdcff44;
+      background-color: #f7f7f7;
 }
 
 .flags p{
@@ -196,6 +196,7 @@ color: white;
 
 
   /* info section  */
+
 .image-div img{
   width: 100%;
     height: 360px;
