@@ -39,9 +39,11 @@
 
   /* conference country  */
   .list-group-item.active{
-    background:  linear-gradient(217deg, #082f85, rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #ab2037, rgb(105 132 171 / 73%) 70.71%), linear-gradient(336deg, #082f85, rgb(0 0 255 / 73%) 70.71%);
-    color: white;
+    /* background:  linear-gradient(217deg, #082f85, rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #ab2037, rgb(105 132 171 / 73%) 70.71%), linear-gradient(336deg, #082f85, rgb(0 0 255 / 73%) 70.71%);
+    color: white; */
     border:none;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.473);
   }
 
   .list-group-item:first-child {
@@ -57,13 +59,59 @@
     border-bottom-right-radius: 0;
 }
 
-
-  .city-list{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+.list-group-item{
+  background-color: transparent;
+  color: white;
+}
+.city-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns for larger screens */
+  gap: 0; /* No gap between items */
+  border: 1px solid #ddd; /* Outer border for table-like appearance */
+  list-style: none; /* Remove bullets */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
 
 .city-list li {
+  padding: 10px; /* Adjust padding for table cell look */
+  border-bottom: 1px solid #ddd; /* Border between rows */
+  border-right: 1px solid #ddd; /* Border between columns */
+  text-align: center; /* Center align text */
+}
+
+.city-list li:nth-child(3n) {
+  border-right: none; /* Remove right border for the last column */
+}
+
+.city-list li:last-child {
+  border-bottom: none; /* Remove bottom border for the last item */
+}
+
+@media (max-width: 768px) {
+  .city-list {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+  }
+
+  .city-list li:nth-child(3n) {
+    border-right: 1px solid #ddd; /* Reapply right border rule */
+  }
+
+  .city-list li:nth-child(2n) {
+    border-right: none; /* Remove right border for the last column in 2-column layout */
+  }
+}
+
+
+
+
+
+  /* .city-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  } */
+
+/* .city-list li {
     list-style: none;
     margin: 5px 0;
   }
@@ -76,7 +124,10 @@
     width: 16px;
     margin-right: 10px;
     transform: translateY(2px);
-  }
+  } */
+
+
+
 
 
 
@@ -91,7 +142,7 @@
 
   /* calendar  */
 
-  .calendar p{
+  .calendar .row p{
     background:  white;
     color: #ab2032;
     font-size: 16px;
@@ -101,12 +152,12 @@
     position: relative;
   }
 
-  .calendar p:hover{
+  .calendar .row p:hover{
 background-color: #ab2032;
 color: white;
   }
 
-  .calendar p::before{
+  .calendar .row p::before{
     content: "";
     height: 34px;
     width: 34px;

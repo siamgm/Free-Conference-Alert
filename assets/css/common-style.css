@@ -70,6 +70,7 @@ color: #ab2032;
 }
 
 footer h6{
+    font-size: 20px;
     position: relative;
 }
 
@@ -86,7 +87,7 @@ footer h6::before{
 }
 
 .copyright{
-    border-top: 1px solid rgba(255, 255, 255, 0.384);
+    border-top: 2px solid rgb(255 255 255 / 10%);
 }
 
 
