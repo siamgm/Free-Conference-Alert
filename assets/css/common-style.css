@@ -80,7 +80,7 @@ footer li a{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.8;
-    color: white;
+    color:#f7f8f7;
     transition: all .3s ease-in;
 }
 footer li a:hover{
