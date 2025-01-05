@@ -17,6 +17,8 @@ h1,h2,h3{
     padding-top: 100px;
   }
 
+  /* buttons  */
+
 .red-btn{
     background-color: #ab2032;
     border:none;
@@ -24,6 +26,16 @@ h1,h2,h3{
   
   }
 
+  .border-btn{
+border-color: #ab2032;
+color: #ab2032;
+  }
+
+  .border-btn:hover{
+    background-color: #ab2032;
+    color: white;
+  }
+/* background colors  */
 
   .gradient-bg{
     background:  linear-gradient(217deg, #082f85, rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #ab2037, rgb(105 132 171 / 73%) 70.71%), linear-gradient(336deg, #082f85, rgb(0 0 255 / 73%) 70.71%);
@@ -52,6 +64,15 @@ h1,h2,h3{
 
 }
 
+/* header styles  */
+.navbar-nav a{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbar-nav .active a{
+    color: #ab2032 !important;
+}
 
 /* footer styles  */
 
