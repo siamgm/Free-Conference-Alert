@@ -49,8 +49,6 @@ color: #ab2032;
     color: white;
   }
 
-
-
   
 
 /* header styles  */
@@ -63,6 +61,7 @@ color: #ab2032;
 .navbar-nav .active a{
     color: #ab2032 !important;
 }
+
 
 /* footer styles  */
 
@@ -89,6 +88,7 @@ footer h6::before{
 .copyright{
     border-top: 1px solid rgba(255, 255, 255, 0.384);
 }
+
 
 
 @media (max-width: 767px){
