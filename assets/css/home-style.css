@@ -115,7 +115,7 @@ color: white;
     width: 34px;
     display: inline-block;
     margin-right: 10px;
-    background-image: url('/assets/images/timetable.png');
+    background-image: url('../images/timetable.png');
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: center center;
