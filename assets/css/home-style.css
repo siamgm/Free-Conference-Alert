@@ -1,9 +1,9 @@
-/* hero section  */
-
-.hero button{
-  padding: 15px 30px;
+h3{
+  font-family:  "Archivo Black", serif;
 }
-
+h3{
+  font-size: 20px;
+}
 
 /* conferencs */
 
@@ -96,33 +96,6 @@
     border-right: none; /* Remove right border for the last column in 2-column layout */
   }
 }
-
-
-
-
-
-  /* .city-list{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  } */
-
-/* .city-list li {
-    list-style: none;
-    margin: 5px 0;
-  }
-  .city-list li::before{
-    display: inline-block;
-    content: "";
-    background-image: url('../images/pin.png');
-    background-size: contain;
-    height: 16px;
-    width: 16px;
-    margin-right: 10px;
-    transform: translateY(2px);
-  } */
-
-
-
 
 
 

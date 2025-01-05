@@ -1,0 +1,36 @@
+/* hero section  */
+
+.hero button{
+    padding: 15px 30px;
+  }
+  
+
+  /* conference list  */
+
+  /* months  */
+.months{
+ overflow-x: auto;  
+ height: 45px;
+}
+.months li a{
+    text-decoration: none;
+    color: #ab2032;
+    padding: 8px 10px;
+border: 1px solid #ab2032;
+transition: all .3s ease-in-out;
+}
+
+.months li a:hover{
+    color: #ffff;
+    background-color: #ab2032;
+    transition: all .3s ease-in-out;
+}
+/* single conference  */
+
+h3{
+    font-size: 25px;
+}
+
+.event-place-time i{
+color: #ab2032;
+}
