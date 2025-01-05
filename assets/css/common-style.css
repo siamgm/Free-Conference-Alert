@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 h1,h2,h3{
     font-family:  "Archivo Black", serif;
@@ -50,3 +51,36 @@ h1,h2,h3{
     }
 
 }
+
+
+/* footer styles  */
+
+footer li{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+.social-icons{
+    gap: 20px;
+}
+
+.social-icons a i{
+    font-size: 25px;
+    color: white;
+    transition: all .3s ease-in;
+}
+.social-icons a i:hover{
+    color: #ab2032;
+}
+
+footer .contact p i{
+    font-size: 20px;
+}
+
+
+/* footer h5{
+    display: inline;
+    padding-bottom: 5px;
+    border-bottom:2px solid #ab2032;
+    margin-bottom: 10px;
+} */
