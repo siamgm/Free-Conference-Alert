@@ -148,7 +148,7 @@ color: white;
 /* flag  */
 
 .flags img{
-  width: 40%;
+  width: 30%;
 }
 
 .flags p{
@@ -169,15 +169,7 @@ color: white;
 
 /* mobile css  */
 @media (max-width: 767px){
-.py-100{
-    padding: 30px 10px;
-  }
-.pt-100{
-    padding-top: 30px;
-  }
-h1{
-  font-size: 35px;
-}
+
 
 /* city list  */
 

@@ -35,3 +35,18 @@ h1,h2,h3{
     background-color: #32196c;
     color: white;
   }
+
+
+
+  @media (max-width: 767px){
+    .py-100{
+        padding: 30px 10px;
+      }
+    .pt-100{
+        padding-top: 30px;
+      }
+    h1{
+      font-size: 35px;
+    }
+
+}
