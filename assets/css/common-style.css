@@ -28,4 +28,10 @@ h1,h2,h3{
     background:  linear-gradient(217deg, #082f85, rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #ab2037, rgb(105 132 171 / 73%) 70.71%), linear-gradient(336deg, #082f85, rgb(0 0 255 / 73%) 70.71%);
     color: white;
     border:none;
+    color: white;
+  }
+
+  .blue-bg{
+    background-color: #32196c;
+    color: white;
   }
