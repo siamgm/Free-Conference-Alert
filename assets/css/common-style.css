@@ -1,0 +1,31 @@
+
+h1,h2,h3{
+    font-family:  "Archivo Black", serif;
+  }
+  h1{
+    font-size: 55px;
+    font-weight: 600;
+  }
+  h3{
+    font-size: 20px;
+  }
+  .py-100{
+    padding: 100px 20px;
+  }
+  .pt-100{
+    padding-top: 100px;
+  }
+
+.red-btn{
+    background-color: #ab2032;
+    border:none;
+    font-size: 18px;
+  
+  }
+
+
+  .gradient-bg{
+    background:  linear-gradient(217deg, #082f85, rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #ab2037, rgb(105 132 171 / 73%) 70.71%), linear-gradient(336deg, #082f85, rgb(0 0 255 / 73%) 70.71%);
+    color: white;
+    border:none;
+  }
