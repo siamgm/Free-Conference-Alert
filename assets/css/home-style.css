@@ -179,7 +179,9 @@ color: white;
 .list-group-item {
   width: 50%;
 }
-
+.city-list {
+  grid-template-columns: 1fr 1fr;
+}
 
 /* info  */
 .image-div img {
