@@ -1,0 +1,67 @@
+h1{
+    font-size: 37px;
+}
+
+
+.hero .time-place i{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.247);
+    height: 35px;
+    width: 35px;
+}
+
+.column-title{
+    border-left: 4px solid #ab2032;
+}
+
+.objective .column-title{
+    font-size: 25px;
+    font-weight: 700; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sidebar .column-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* calender column  */
+.objective .row{
+    margin: 0;
+}
+.objective .row .col{
+    padding: 0;
+}
+
+.calender-image{
+    height: 60px;
+    width: 60px;
+}
+
+
+/* index column  */
+
+.index-images .image-box{
+    height: 105px !important;
+    overflow: hidden;
+}
+
+
+/* sidebar  */
+
+
+/* similar conference column  */
+.similar-conferences .single-event h4{
+    font-size: 18px;
+}
+
+.similar-conferences li{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.similar-conferences li:last-child {
+    border-bottom: none; 
+    margin-bottom: 0;
+  }
