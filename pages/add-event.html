@@ -113,8 +113,16 @@
     
               <!-- Event Type -->
               <div class="col-md-6 form-group">
-                <label for="eventType">Event Type</label>
-                <input type="text" class="form-control" id="eventType" placeholder="Enter event type" required>
+                <label for="eventType">Event Type</label>           
+                <select class="form-control" id="eventType" required>
+                  <option value="" disabled selected>Select event type</option>
+                  <option value="conference">Conference</option>
+                  <option value="seminar">Seminar</option>
+                  <option value="workshop">Workshop</option>
+                  <option value="webinar">Webinar</option>
+                  <option value="cpd-event">Continuing professional development event</option>
+                  <option value="online-conference">Online conference</option>
+                </select>
               </div>
     
               <!-- Event Category -->
@@ -133,13 +141,40 @@
               <!-- Event Topic -->
               <div class="col-md-6 form-group">
                 <label for="eventTopic">Event Topic</label>
-                <input type="text" class="form-control" id="eventTopic" placeholder="Enter event topic" required>
+                <select class="form-control" id="eventTopic" required>
+                  <option value="" disabled selected>Select topic</option>
+                  <option>AI</option>
+                  <option>Machine Learning</option>
+                  
+                </select>
               </div>
     
               <!-- Country -->
               <div class="col-md-6 form-group">
                 <label for="country">Country</label>
-                <input type="text" class="form-control" id="country" placeholder="Enter country" required>
+                <select class="form-control" id="Country" required>
+                  <option value="" disabled selected>Choose Country</option>
+                  <option value="usa">United States</option>
+                  <option value="canada">Canada</option>
+                  <option value="uk">United Kingdom</option>
+                  <option value="australia">Australia</option>
+                  <option value="india">India</option>
+                  <option value="germany">Germany</option>
+                  <option value="france">France</option>
+                  <option value="italy">Italy</option>
+                  <option value="spain">Spain</option>
+                  <option value="brazil">Brazil</option>
+                  <option value="south-africa">South Africa</option>
+                  <option value="mexico">Mexico</option>
+                  <option value="japan">Japan</option>
+                  <option value="china">China</option>
+                  <option value="russia">Russia</option>
+                  <option value="south-korea">South Korea</option>
+                  <option value="netherlands">Netherlands</option>
+                  <option value="sweden">Sweden</option>
+                  <option value="singapore">Singapore</option>
+                  <option value="new-zealand">New Zealand</option>
+              </select>
               </div>
     
               <!-- State or Province -->
