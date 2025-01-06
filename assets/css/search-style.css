@@ -4,23 +4,8 @@
   /* conference list  */
 
   /* months  */
-.months{
- overflow-x: auto;  
- height: 45px;
-}
-.months li a{
-    text-decoration: none;
-    color: #ab2032;
-    padding: 8px 10px;
-border: 1px solid #ab2032;
-transition: all .3s ease-in-out;
-}
+  /* common css  */
 
-.months li a:hover{
-    color: #ffff;
-    background-color: #ab2032;
-    transition: all .3s ease-in-out;
-}
 /* single conference  */
 
 h3{
@@ -48,8 +33,5 @@ color: #ab2032;
 
 
 /* pagination  */
-.page-item.active .page-link{
-background-color: #ab2032;
-border: none;
-}
+ /* common css  */
 

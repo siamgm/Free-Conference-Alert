@@ -1,0 +1,51 @@
+h3{
+    font-size: 22px;
+}
+
+/* filter  */
+.checkbox-div{
+    max-height: 210px;
+    overflow-y: auto;
+}
+
+/* conference  */
+.conferences li{
+    border-bottom: 1px solid #ddd;
+}
+
+.conferences li:last-child {
+    border-bottom: none; 
+  }
+
+.event-place-time i{
+color: #ab2032;
+}
+.organized-by span{
+    font-weight: 500;
+}
+.organized-by{
+    font-weight: 400;
+    display:block;
+}
+
+
+/* scroll bar designs  */
+
+.checkbox-div::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .checkbox-div::-webkit-scrollbar-thumb {
+    background: #32196ca2;
+    border-radius: 5px;
+  }
+  
+  .checkbox-div::-webkit-scrollbar-thumb:hover {
+    background: #32196c;
+  }
+  
+  
+  .checkbox-div::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
