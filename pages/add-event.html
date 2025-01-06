@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/common-style.css">
+    <link rel="stylesheet" href="../assets/css/common-style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="../assets/css/add-event-style.css">
     <title>Add Event</title>
@@ -50,7 +50,174 @@
     </header>
 
     
-    <main></main>
+    <main>
+      <section class="position-relative text-center py-100 text-white blue-bg hero">
+        <div class="container position-relative">
+          <h1 class="pb-2">Add Your Conferences</h1>
+          <p class="pb-2">Free Conference Alerts is one such platform where the information presented in a captivating way to generate buzz about your event. It carries a unique position to present conferences of all the streams, domains and nature into one modest dynamic runway. It helps you get best updated information about all the free upcoming conferences happening across the globe at your fingertips in a fraction of seconds.</p>
+
+          <p>Home | Add Event</p>
+          
+        </div>
+       </section>
+
+       <section class="form-section py-100">
+      <div class="container rounded border p-4">
+        <h2 class="text-center mb-4">Add Your Event</h2>
+        <form >
+          <!-- Event Organizer Details Section -->
+          <div class="mb-4">
+            <h4 class="red-color mb-3">Event Organizer Details</h4>
+            <div class="row">
+              <!-- Organizer Name -->
+              <div class="col-md-12 form-group">
+                <label for="organizerName">Organizer Name</label>
+                <input type="text" class="form-control" id="organizerName" placeholder="Enter organizer name" required>
+              </div>
+    
+              <!-- Name of Organization -->
+              <div class="col-md-6 form-group">
+                <label for="organizationName">Name of Organization</label>
+                <input type="text" class="form-control" id="organizationName" placeholder="Enter organization name" required>
+              </div>
+    
+              <!-- Organizer Email -->
+              <div class="col-md-6 form-group">
+                <label for="organizerEmail">Organizer Email</label>
+                <input type="email" class="form-control" id="organizerEmail" placeholder="Enter email" required>
+              </div>
+    
+              <!-- Password -->
+              <div class="col-md-6 form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter password" required>
+              </div>
+    
+              <!-- Confirm Password -->
+              <div class="col-md-6 form-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm password" required>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Event Details Section -->
+          <div class="mb-4">
+            <h4 class="red-color mb-3">Event Details</h4>
+            <div class="row">
+              <!-- Event Name -->
+              <div class="col-md-6 form-group">
+                <label for="eventName">Event Name</label>
+                <input type="text" class="form-control" id="eventName" placeholder="Enter event name" required>
+              </div>
+    
+              <!-- Event Type -->
+              <div class="col-md-6 form-group">
+                <label for="eventType">Event Type</label>
+                <input type="text" class="form-control" id="eventType" placeholder="Enter event type" required>
+              </div>
+    
+              <!-- Event Category -->
+              <div class="col-md-6 form-group">
+                <label for="eventCategory">Event Category</label>
+                <select class="form-control" id="eventCategory" required>
+                  <option value="" disabled selected>Select category</option>
+                  <option>Technology</option>
+                  <option>Science</option>
+                  <option>Business</option>
+                  <option>Education</option>
+                  <option>Health</option>
+                </select>
+              </div>
+    
+              <!-- Event Topic -->
+              <div class="col-md-6 form-group">
+                <label for="eventTopic">Event Topic</label>
+                <input type="text" class="form-control" id="eventTopic" placeholder="Enter event topic" required>
+              </div>
+    
+              <!-- Country -->
+              <div class="col-md-6 form-group">
+                <label for="country">Country</label>
+                <input type="text" class="form-control" id="country" placeholder="Enter country" required>
+              </div>
+    
+              <!-- State or Province -->
+              <div class="col-md-6 form-group">
+                <label for="state">State or Province</label>
+                <input type="text" class="form-control" id="state" placeholder="Enter state or province" required>
+              </div>
+    
+              <!-- City -->
+              <div class="col-md-6 form-group">
+                <label for="city">City</label>
+                <input type="text" class="form-control" id="city" placeholder="Enter city" required>
+              </div>
+    
+              <!-- Venue -->
+              <div class="col-md-6 form-group">
+                <label for="venue">Venue</label>
+                <input type="text" class="form-control" id="venue" placeholder="Enter venue" required>
+              </div>
+    
+              <!-- Organizing Society -->
+              <div class="col-md-6 form-group">
+                <label for="organizingSociety">Organizing Society</label>
+                <input type="text" class="form-control" id="organizingSociety" placeholder="Enter organizing society" required>
+              </div>
+    
+              <!-- Contact Person -->
+              <div class="col-md-6 form-group">
+                <label for="contactPerson">Contact Person for Event</label>
+                <input type="text" class="form-control" id="contactPerson" placeholder="Enter contact person" required>
+              </div>
+    
+              <!-- Enquiries Email -->
+              <div class="col-md-6 form-group">
+                <label for="eventEnquiries">Event Enquiries Email ID</label>
+                <input type="email" class="form-control" id="eventEnquiries" placeholder="Enter enquiries email" required>
+              </div>
+    
+              <!-- Website Address -->
+              <div class="col-md-6 form-group">
+                <label for="website">Website Address</label>
+                <input type="url" class="form-control" id="website" placeholder="Enter website address" required>
+              </div>
+    
+              <!-- Event Start Date -->
+              <div class="col-md-6 form-group">
+                <label for="startDate">Event Start Date</label>
+                <input type="date" class="form-control" id="startDate" required>
+              </div>
+    
+              <!-- Last Day of Event -->
+              <div class="col-md-6 form-group">
+                <label for="endDate">Last Day of Event</label>
+                <input type="date" class="form-control" id="endDate" required>
+              </div>
+    
+              <!-- Deadline for Abstracts -->
+              <div class="col-md-12 form-group">
+                <label for="abstractDeadline">Deadline for Abstracts/Proposals</label>
+                <input type="date" class="form-control" id="abstractDeadline" required>
+              </div>
+    
+              <!-- Short Description -->
+              <div class="col-md-12 form-group">
+                <label for="shortDescription">Short Description of Event</label>
+                <textarea class="form-control" id="shortDescription" rows="4" placeholder="Enter short description" required></textarea>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Submit Button -->
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-block red-btn">Submit Event</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    </main>
 
     <!-- Footer -->
   <footer
@@ -180,5 +347,9 @@
 </div>
 
 </footer>
+<!-- Bootstrap JS dependencies -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
