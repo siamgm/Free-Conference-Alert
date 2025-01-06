@@ -33,12 +33,12 @@ h3{
 
 
   /* conference country  */
+
   .list-group-item.active{
-    /* background:  linear-gradient(217deg, #082f85, rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #ab2037, rgb(105 132 171 / 73%) 70.71%), linear-gradient(336deg, #082f85, rgb(0 0 255 / 73%) 70.71%);
-    color: white; */
+    /* background:  linear-gradient(217deg, #082f85, rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #ab2037, rgb(105 132 171 / 73%) 70.71%), linear-gradient(336deg, #082f85, rgb(0 0 255 / 73%) 70.71%); */
+    color: white;
     border:none;
-    color: black;
-    background-color: rgba(255, 255, 255, 0.473);
+    background-color: #ab2032;
   }
 
   .list-group-item:first-child {
@@ -55,7 +55,7 @@ h3{
 }
 
 .list-group-item{
-  background-color: transparent;
+  background-color: #082f85;
   color: white;
 }
 .city-list {

@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
 
 h1,h2{
     font-family:  "Archivo Black", serif;
@@ -9,11 +12,18 @@ h1,h2{
     font-weight: 600;
   }
   
+  p{
+    font-size: 18px;
+  }
   .py-100{
     padding: 100px 20px;
   }
   .pt-100{
     padding-top: 100px;
+  }
+
+  .w-md-75{
+    max-width: 75%;
   }
 
   /* buttons  */
