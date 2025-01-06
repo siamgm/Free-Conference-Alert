@@ -29,6 +29,26 @@ color: #ab2032;
 }
 
 
+/* topic buttons  */
+
+.topic-btns-parent li{
+  height: 75px;
+}
+.topic-btns-parent li a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  background:  #082f85;
+  transition: all .3s ease-in-out;
+}
+
+.topic-btns-parent li a:hover{
+  background:  #ab2032;
+
+}
+
+
 /* scroll bar designs  */
 
 .checkbox-div::-webkit-scrollbar {
