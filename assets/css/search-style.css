@@ -34,3 +34,17 @@ h3{
 .event-place-time i{
 color: #ab2032;
 }
+.organized-by span{
+    font-weight: 500;
+}
+.organized-by{
+    font-weight: 400;
+    display: inline-block;
+}
+
+
+/* pagination  */
+.page-item.active .page-link{
+background-color: #ab2032;
+border: none;
+}
