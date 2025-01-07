@@ -5,6 +5,7 @@ form label{
 
 form h4{
    font-weight: 700;
+   transform: translateY(-35px);
 }
 
 .form-section .container{
