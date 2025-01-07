@@ -35,7 +35,6 @@ h3{
   /* conference country  */
 
   .list-group-item.active{
-    /* background:  linear-gradient(217deg, #082f85, rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #ab2037, rgb(105 132 171 / 73%) 70.71%), linear-gradient(336deg, #082f85, rgb(0 0 255 / 73%) 70.71%); */
     color: white;
     border:none;
     background-color: #ab2032;
@@ -60,40 +59,40 @@ h3{
 }
 .city-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns for larger screens */
-  gap: 0; /* No gap between items */
-  border: 1px solid #ddd; /* Outer border for table-like appearance */
-  list-style: none; /* Remove bullets */
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  border: 1px solid #ddd; 
+  list-style: none; 
+  padding: 0; 
+  margin: 0;
 }
 
 .city-list li {
-  padding: 10px; /* Adjust padding for table cell look */
-  border-bottom: 1px solid #ddd; /* Border between rows */
-  border-right: 1px solid #ddd; /* Border between columns */
-  text-align: center; /* Center align text */
+  padding: 10px; 
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  text-align: center;
 }
 
 .city-list li:nth-child(3n) {
-  border-right: none; /* Remove right border for the last column */
+  border-right: none; 
 }
 
 .city-list li:last-child {
-  border-bottom: none; /* Remove bottom border for the last item */
+  border-bottom: none; /
 }
 
 @media (max-width: 768px) {
   .city-list {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .city-list li:nth-child(3n) {
-    border-right: 1px solid #ddd; /* Reapply right border rule */
+    border-right: 1px solid #ddd; 
   }
 
   .city-list li:nth-child(2n) {
-    border-right: none; /* Remove right border for the last column in 2-column layout */
+    border-right: none; 
   }
 }
 
@@ -101,7 +100,8 @@ h3{
 
 /* pagination  */
   .page-item.active .page-link {
-    background:  linear-gradient(217deg, #082f85, rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #ab2037, rgb(105 132 171 / 73%) 70.71%), linear-gradient(336deg, #082f85, rgb(0 0 255 / 73%) 70.71%);
+    /* background:  linear-gradient(217deg, #082f85, rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #ab2037, rgb(105 132 171 / 73%) 70.71%), linear-gradient(336deg, #082f85, rgb(0 0 255 / 73%) 70.71%); */
+    background-color: #ab2032;
     border-color: #0033a0;
     color: white;
 }
