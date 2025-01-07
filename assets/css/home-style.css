@@ -5,6 +5,12 @@ h3{
   font-size: 20px;
 }
 
+/* searchbar  */
+
+.hero form{
+  background-color: #f7f7f73b;
+}
+
 /* conferencs */
 
 .conference-list,.list-box,  .topics,.flags .container .row div div{
