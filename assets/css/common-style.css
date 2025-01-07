@@ -21,6 +21,9 @@ h1,h2{
   .pt-100{
     padding-top: 100px;
   }
+  .pt-80{
+    padding-top: 80px
+  }
 
   .w-md-75{
     max-width: 75%;
@@ -151,11 +154,17 @@ footer h6::before{
     .pt-100{
         padding-top: 30px;
       }
+      .pt-80{
+        padding-top: 10px
+      }
     h1{
       font-size: 33px;
     }
     h2{
         font-size: 30px;
+      }
+      .w-md-75{
+        max-width: 100%;
       }
 
 }
