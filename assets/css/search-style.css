@@ -12,17 +12,6 @@ h3{
     font-size: 25px;
 }
 
-.conferences li{
-    border-bottom: 1px solid #ddd;
-}
-
-.conferences li:last-child {
-    border-bottom: none; 
-  }
-
-.event-place-time i{
-color: #ab2032;
-}
 .organized-by span{
     font-weight: 500;
 }
