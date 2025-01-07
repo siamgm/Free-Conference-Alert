@@ -42,15 +42,14 @@ h1{
 /* index column  */
 
 .index-images .image-box{
-    height: 105px !important;
-    overflow: hidden;
+    height: 105px;
 }
 
 
 /* sidebar  */
 
 
-/* similar conference column  */
+/* featured conference column  */
 .featured-conferences{
     max-height: 340px;
     overflow-y: auto;

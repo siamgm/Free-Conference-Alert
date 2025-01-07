@@ -100,7 +100,6 @@ h3{
 
 /* pagination  */
   .page-item.active .page-link {
-    /* background:  linear-gradient(217deg, #082f85, rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #ab2037, rgb(105 132 171 / 73%) 70.71%), linear-gradient(336deg, #082f85, rgb(0 0 255 / 73%) 70.71%); */
     background-color: #ab2032;
     border-color: #0033a0;
     color: white;
@@ -182,8 +181,9 @@ color: white;
 
 
 /* mobile css  */
-@media (max-width: 767px){
 
+
+@media (max-width: 767px){
 
 /* city list  */
 

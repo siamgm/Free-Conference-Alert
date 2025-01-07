@@ -60,7 +60,6 @@ color: #ab2032;
     background:  linear-gradient(217deg, #082f85, rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, #ab2037, rgb(105 132 171 / 73%) 70.71%), linear-gradient(336deg, #082f85, rgb(0 0 255 / 73%) 70.71%);
     color: white;
     border:none;
-    color: white;
   }
 
   .blue-bg{
@@ -118,24 +117,6 @@ footer h6::before{
 }
 
 
-
-@media (max-width: 767px){
-    .py-100{
-        padding: 30px 10px;
-      }
-    .pt-100{
-        padding-top: 30px;
-      }
-    h1{
-      font-size: 33px;
-    }
-    h2{
-        font-size: 30px;
-      }
-
-}
-
-
   /* months  */
   .months{
     overflow-x: auto;  
@@ -155,9 +136,26 @@ footer h6::before{
        transition: all .3s ease-in-out;
    }
 
+   
    /* pagination  */
 .page-item.active .page-link{
   background-color: #ab2032;
   border: none;
   }
   
+
+  @media (max-width: 767px){
+    .py-100{
+        padding: 30px 10px;
+      }
+    .pt-100{
+        padding-top: 30px;
+      }
+    h1{
+      font-size: 33px;
+    }
+    h2{
+        font-size: 30px;
+      }
+
+}
