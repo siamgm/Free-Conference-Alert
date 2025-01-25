@@ -607,7 +607,7 @@ footer h6::before{
 /* single post sidebar titles  */
 
 .single-post .sidebar-title{
-  background: #ab20323b;
+    background: #ab20323b;
     padding: 5px;
     border-left: 4px solid #ab2032;
     border-radius: 3px;
